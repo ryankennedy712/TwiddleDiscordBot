@@ -1,5 +1,5 @@
 
-file = open("C:/Users/Ryan/Desktop/token.txt","r")
+file = open("token.txt","r")
 token = file.read()
 import discord
 class MyClient(discord.Client):
